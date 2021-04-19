@@ -15,14 +15,18 @@ aside,main{
 }
 
 aside{
-    background: url(img/img.jpg)no-repeat;
-    color:#fff;
+    color: red;
     justify-content: center;
     
 
 }
+.img{
+
+    position: relative;
+
+    width: 50vw;
+}
 main{
-    background: url(img/img2.jpg)no-repeat;;
     color:#fff;
     justify-content: center;
 }
@@ -39,9 +43,14 @@ main{
 }
 
 a{
+    position: absolute;
+    z-index: 50px;
     padding: 40px;
     margin: 0px;
-    border: 6px solid #fff;
+    border: 6px solid purple;
     text-decoration: none;
-    color: #fff;
+    color: purple;
+}
+a:hover{
+    background-color: rgb(0,0,0,0.2);
 }
